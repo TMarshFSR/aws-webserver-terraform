@@ -1,5 +1,5 @@
 output "server_public_ip" {
-    value = aws_eip.one.public_ip
+    value = aws_eip.Nat-Gateway-EIP.public_ip
 }
 
 output "net_id" {

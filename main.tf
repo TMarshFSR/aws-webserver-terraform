@@ -11,7 +11,7 @@ module "ec2" {
   ami_id        = "ami-08bac620dc84221eb"
   instance_type = "t2.medium"
   av_zone       = "eu-west-1a"
-  key_name      = "<INSERT-KEY-PAIR-NAME>"
+  key_name      = "aws-1"
   user_data     = <<-EOF
                     #!/bin/bash
                     sudo apt update -y
