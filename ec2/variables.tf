@@ -3,4 +3,7 @@ variable "ami_id" {}
 variable "instance_type" {}
 variable "av_zone" {}
 variable "key_name" {}
-variable "user_data" {}
+variable "subnet_group_name" {}
+variable "sec_group_id_sql" {
+  
+}
